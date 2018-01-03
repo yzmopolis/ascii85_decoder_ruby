@@ -33,8 +33,3 @@ module Ascii
   end
 
 end
-
-
-puts Ascii.decode_from_ascii85('<~Bkq,~>')
-puts Ascii.decode_from_ascii85("<~6tL4RB5_g'Df,~>")
-puts Ascii.encode_to_ascii85('bitchin')
